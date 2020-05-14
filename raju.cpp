@@ -1,4 +1,4 @@
-
+///raju kumar hello world 
 #include <iostream> 
 #include<bits/stdc++.h>
 #include <list> 
@@ -34,7 +34,7 @@ int main()
    	  Tree[n1].push_back(n2);
    }
    vector<int>::iterator ptr ;
-
+   //raju kumar 
 
    // for (const auto &e1:Tree){
    // 	  for (const auto &e2:e1){
