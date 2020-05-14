@@ -1,6 +1,4 @@
-///raju kumar hello world  hgdsh
 #include <iostream> 
-#include<bits/stdc++.h>
 #include <list> 
 #include <iterator> 
 #include<array>
@@ -33,15 +31,13 @@ int main()
    	  cin>> n1, n2;
    	  Tree[n1].push_back(n2);
    }
-   vector<int>::iterator ptr ;
-   //raju kumar 
 
-   // for (const auto &e1:Tree){
-   // 	  for (const auto &e2:e1){
-   // 	  	cout<<e2 ;
-   // 	  }
-   // 	  cout<<endl; 
-   // }
+   for (const auto &e1:Tree){
+   	  for (const auto &e2:e1){
+   	  	cout<<e2 ;
+   	  }
+   	  cout<<endl; 
+   }
      return 0 ; 
   
 } 
